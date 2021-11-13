@@ -25,6 +25,9 @@
          height="15"/>
   </a>
   {% endif %}
+  {% if DONATION_URL %}
+    {% include "partial/donate.html" %}
+  {% endif %}
   {% if STATUSCAKE %}
     {% include "partial/statuscake.html" %}
   {% endif %}
